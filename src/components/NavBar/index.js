@@ -6,12 +6,12 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to="/main">
+        <NavLink to="/">
           <img src={require('../../images/logo.png')} alt="logo" />
         </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink to="/main" activestyle="true">
+          <NavLink to="/" activestyle="true">
             <p>Главная</p>
           </NavLink>
           <NavLink to="/plan" activestyle="true">

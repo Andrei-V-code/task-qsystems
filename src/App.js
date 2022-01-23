@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/NavBar';
-import Home from './pages/main';
+import Main from './pages/main';
 import Plan from './pages/plan';
 import Theory from './pages/theory';
 
@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/main" element={<Home />} />
+        <Route path="/" element={<Main />} />
         <Route path="/plan" element={<Plan />} />
         <Route path="/theory" element={<Theory />} />
       </Routes>
